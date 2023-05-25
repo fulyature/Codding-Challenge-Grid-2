@@ -1,0 +1,26 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+.container {
+  height: 100vh;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr) 150px;
+  grid-template-rows: 1fr 1.5fr 2fr 0.5fr;
+  gap: 20px;
+}
+.content {
+  background-color: blue;
+}
+.c1 {
+  grid-column: span 4;
+}
+.c5 {
+  grid-row: span 2;
+}
+.c6 {
+  grid-column: span 3;
+}
+.c7 {
+  grid-column: span 4;
+}
